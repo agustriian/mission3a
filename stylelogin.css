@@ -1,0 +1,134 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffceb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo {
+    width: 300px; 
+    height: auto;
+    display: inline-block;
+    margin-right: 300px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.login-card p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group span {
+    color: red;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #e7f9eb;
+    color: #28a745;
+}
+
+.btn-google {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-google img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.divider {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #666666;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    height: 1px;
+    width: 45%;
+    background-color: #dddddd;
+    position: absolute;
+    top: 50%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}

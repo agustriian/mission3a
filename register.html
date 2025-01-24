@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Akun - Videobelajar</title>
+    <link rel="stylesheet" href="styleregister.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="gambar/logo.png" alt="Logo Videobelajar" class="logo">
+        </header>
+        <main class="main-content">
+            <div class="register-card">
+                <h2>Pendaftaran Akun</h2>
+                <p>Yuk, daftarkan akunmu sekarang juga!</p>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="fullname">Nama Lengkap <span>*</span></label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail <span>*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">No. Hp <span>*</span></label>
+                        <div class="phone-group">
+                            <select id="phone-code" name="phone-code">
+                                <option value="+62">🇮🇩 +62</option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" placeholder="8123456789" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Kata Sandi <span>*</span></label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Konfirmasi Kata Sandi <span>*</span></label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    <a href="#" class="forgot-password">Lupa Password?</a>
+                    <button type="submit" class="btn btn-primary">Daftar</button>
+                    <button type="button" class="btn btn-secondary">Masuk</button>
+                    <div class="divider">atau</div>
+                    <button type="button" class="btn btn-google">
+                        <img src="gambar/google.png" alt="Google"> Daftar dengan Google
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
